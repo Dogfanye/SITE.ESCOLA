@@ -1,0 +1,111 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(99, 204, 218, 0.678);
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #ee2424;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+header h1 {
+    color: white;
+    -webkit-text-stroke: 3px black;
+    -webkit-text-fill-color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Estilos do menu de navegação */
+nav {
+    background-color: #513daa;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+/* Estilos do conteúdo */
+main {
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Estilos das seções */
+.section {
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#inicio {
+    background-color: #ffffff;
+}
+
+#sobre {
+    background-color: #ffffff;
+}
+
+#curriculo {
+    background-color: #ffffff;
+}
+
+#docentes {
+    background-color: #ffffff;
+}
+
+#image-container {
+    border: 2px solid #000;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #474747;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: #000000;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+}
